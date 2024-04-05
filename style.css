@@ -1,0 +1,42 @@
+body{
+   margin:0;
+   font-weight: bold;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+h1{
+    font-size: 3.5rem;
+    color: hsl(0, 0%, 20%);
+}
+.choices{
+    margin-bottom: 30px ;
+}
+.choices button{
+    font-size:  5.5rem;
+    margin:0 20px;
+    border-radius: 250px;
+    max-width: 130px;
+    background-color: hsl(160, 58%, 71%);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.choices button:hover{
+    background-color: hsl(160, 58%, 81%);
+}
+#playerdisplay, #computerdisplay{
+    font-size: 2.5rem;
+}
+#resultdisplay{
+    font-size: 5rem;
+}
+.scoredisplay{
+    font-size: 2rem;
+}
+.greencolor,#Playerscoredisplay{
+    color:hsl(120, 53%, 43%)
+}
+.redcolor,#computerscoredisplay{
+    color:hsl(0, 68%, 46%)
+}
